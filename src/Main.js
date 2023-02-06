@@ -1,19 +1,6 @@
 import { Tree } from "./modules/Tree.js";
 import { randomArray, printTraversal } from "./modules/Helper.js";
 
-// const randomArray = (length=15) => Array.from({"length": length}, () => Math.floor(Math.random() * 100) + 1).sort((a, b) => a-b);
-// const printTraversal = (tree, number) => {
-//     const orders = [...[tree.levelOrder()], ...[tree.preorder()], ...[tree.postorder()], ...[tree.inorder()]];
-//     orders.forEach((array, i) => {
-//         if (i === 0) {
-//             console.log(`\n\n`);
-//             console.log('\x1b[36m%s\x1b[0m', `${"\t".repeat(2)}Transversal ${number}`);
-//         }
-//         console.log(`\n ${array}`);
-//     });
-//     return;
-// };
-
 const main = (() => {
     // 1. Create a binary search tree from an array of random numbers.
     const random = randomArray();

@@ -149,21 +149,4 @@ export class Tree {
         }
     };
 }
-// const arr = [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324];
-// const tree = new Tree(arr)
-// tree.remove(67);
-// console.log(tree.find(23));
-// console.log(tree.levelOrder())
-// console.log(tree.inorder());
-// console.log(tree.preorder())
-// console.log(tree.postorder())
-// console.log(tree.height());
-// console.log(tree.depth(4))
-// console.log(tree.isBalanced());
-// tree.insert(120);
-// tree.insert(130);
-// tree.insert(520);
-// console.log(tree.rebalance());
-// console.log(tree.isBalanced());
-// tree.prettyPrint(tree.root);
 
