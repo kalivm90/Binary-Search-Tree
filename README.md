@@ -17,5 +17,5 @@ This takes an array as input, sorts it and removes any duplicates, then builds a
 13. rebalance - rebalances an unbalanced tree
 
 ## To run - this uses babel
-$ npm install
-$ npm run start 
+```$ npm install```
+```$ npm run start```
